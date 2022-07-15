@@ -34,7 +34,7 @@ public class Demo1 {
 	}
 	@Test
 	public void test4() {
-		Stream<Integer> st=Stream.iterate(0,x->x+3);
+		Stream<Integer> st=Stream.iterate(0,x->x+10);
 		st.limit(10).forEach(System.out::println);
 	}
 	
